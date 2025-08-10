@@ -15,7 +15,7 @@ export const HeroSection = () => {
     const heroSectionTimeLine = gsap.timeline({
       scrollTrigger: {
         trigger: ".hero-container",
-        start: "25% top",
+        start: "5% top",
         end: "bottom top",
         scrub: true,
       },
@@ -51,7 +51,6 @@ export const HeroSection = () => {
       scale: 0.9,
       rotate: 7,
       yPercent: 30,
-      opacity: 0,
       ease: "power1.inout",
     });
   });
