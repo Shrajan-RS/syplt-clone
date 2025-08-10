@@ -1,4 +1,11 @@
-const flavorlists = [
+const navLinks = [
+  {
+    id: "home",
+    name: "Home",
+  },
+];
+
+const flavorLists = [
   {
     name: "Chocolate Milk",
     color: "brown",
@@ -89,4 +96,4 @@ const cards = [
   },
 ];
 
-export { flavorlists, nutrientLists, cards };
+export { flavorLists, nutrientLists, cards, navLinks };
