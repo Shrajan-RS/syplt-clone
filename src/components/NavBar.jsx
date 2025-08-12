@@ -1,4 +1,4 @@
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 z-50 md:p-9 p-3">
       <a href="#home">
@@ -11,3 +11,5 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;

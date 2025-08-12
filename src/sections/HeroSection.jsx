@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 
-export const HeroSection = () => {
+const HeroSection = () => {
   useGSAP(() => {
     const heroTitleText = SplitText.create(".hero-title", {
       type: "chars",
@@ -90,3 +90,5 @@ export const HeroSection = () => {
     </section>
   );
 };
+
+export default HeroSection;

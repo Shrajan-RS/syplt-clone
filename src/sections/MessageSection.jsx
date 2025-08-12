@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import React from "react";
 
-export const MessageSection = () => {
+const MessageSection = () => {
   useGSAP(() => {
     const firstMessageSplit = SplitText.create(".first-message", {
       type: "words",
@@ -106,3 +106,5 @@ export const MessageSection = () => {
     </section>
   );
 };
+
+export default MessageSection;
