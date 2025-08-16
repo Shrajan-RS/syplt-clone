@@ -2,6 +2,7 @@ import { clipPathContent } from "../constants";
 import ClipPathTitle from "../components/ClipPathTitle";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import VideoPinSection from "../components/VideoPinSection";
 
 const HighLightedFeatures = () => {
   useGSAP(() => {
@@ -11,12 +12,6 @@ const HighLightedFeatures = () => {
         start: "top center",
         end: "top top",
         scrub: 1.5,
-        markers: {
-          startColor: "blue",
-          endColor: "red",
-          fontSize: "30px",
-          indent: 100,
-        },
       },
     });
 
@@ -47,6 +42,10 @@ const HighLightedFeatures = () => {
             <p>And Much More!!!</p>
           </div>
         </div>
+      </div>
+
+      <div className="relative overlay-box">
+        <VideoPinSection />
       </div>
     </section>
   );
