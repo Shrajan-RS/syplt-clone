@@ -96,4 +96,43 @@ const cards = [
   },
 ];
 
-export { flavorLists, nutrientLists, cards, navLinks };
+const clipPathContent = [
+  {
+    title: "shelf stable",
+    color: "#faeade",
+    background: "#c88e64",
+    className: "first-title",
+    borderColor: "#222123",
+    initialClipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)",
+    finalClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+  },
+  {
+    title: "protein + caffeine",
+    color: "#222123",
+    background: "#faeade",
+    className: "second-title",
+    borderColor: "#222123",
+    initialClipPath: "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)",
+    finalClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+  },
+  {
+    title: "infinitely recyclable",
+    color: "#faeade",
+    background: "#7F3B2D",
+    className: "third-title",
+    borderColor: "#222123",
+    initialClipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)",
+    finalClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+  },
+  {
+    title: "lactose free",
+    color: "#2E2D2F",
+    background: "#FDE775",
+    className: "fourth-title",
+    borderColor: "#222123",
+    initialClipPath: "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)",
+    finalClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+  },
+];
+
+export { flavorLists, nutrientLists, cards, navLinks, clipPathContent };
