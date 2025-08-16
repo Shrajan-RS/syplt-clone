@@ -91,7 +91,7 @@ const cards = [
     src: "/videos/f7.mp4",
     rotation: "rotate-z-[-3deg]",
     name: "Melisa",
-    img: "/images/p7.png",
+    img: "/images/p1.png",
     translation: "translate-y-[10%]",
   },
 ];
