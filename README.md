@@ -83,4 +83,3 @@ This project was created by following the 📺 Fullstack Empire YouTube tutorial
 link: https://www.youtube.com/watch?v=pqYxZ8jd768
 
 This project is for educational purposes only. All visual assets and code are intended for personal learning use and not for commercial reproduction.
-```
