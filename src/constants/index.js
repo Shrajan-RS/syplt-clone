@@ -135,4 +135,19 @@ const clipPathContent = [
   },
 ];
 
-export { flavorLists, nutrientLists, cards, navLinks, clipPathContent };
+const socialLinks = [
+  {
+    name: "youTube",
+    src: "/images/yt.svg",
+  },
+  {
+    name: "instagram",
+    src: "/images/insta.svg",
+  },
+  {
+    name: "tikTok",
+    src: "/images/tiktok.svg",
+  },
+];
+
+export { flavorLists, nutrientLists, cards, navLinks, clipPathContent, socialLinks };

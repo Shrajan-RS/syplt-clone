@@ -34,7 +34,7 @@ const TestimonialSection = () => {
     const pinVideoTimeLine = gsap.timeline({
       scrollTrigger: {
         trigger: ".testimonials-section",
-        start: "10% top",
+        start: "15% top",
         end: "200% top",
         scrub: 1.5,
         pin: true,
@@ -112,5 +112,3 @@ const TestimonialSection = () => {
 };
 
 export default TestimonialSection;
-
-//03:01:53
