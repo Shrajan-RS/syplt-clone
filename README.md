@@ -1,12 +1,86 @@
-# React + Vite
+# 🥤 SPYLT – Immersive Scroll Animation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bold and playful web experience powered by **React, GSAP, and Tailwind CSS**.  
+SPYLT blends seamless animations, storytelling transitions, and dynamic visuals into a single-page landing site designed for engagement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Table of Contents
 
-## Expanding the ESLint configuration
+- [Introduction](#-introduction)
+- [Tech Stack](#-tech-stack)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🤖 Introduction
+
+SPYLT is a modern animated landing page that showcases **scroll-triggered interactions**, **video storytelling**, and **immersive transitions**.  
+With GSAP driving the animations and Tailwind CSS handling the design system, SPYLT delivers a fun, high-energy user journey built for performance and style.
+
+---
+
+## ⚙️ Tech Stack
+
+- **React.js** – Component-driven UI
+- **GSAP** – Scroll animations, SplitText effects, and transitions
+- **Tailwind CSS** – Utility-first styling
+- **React Responsive** – Media query handling for devices
+
+---
+
+## 🌟 Features
+
+👉 **Hero Section** – Split-text animations with video/image background swaps.  
+👉 **Message Section** – Scroll-triggered word reveals and animated storytelling.  
+👉 **Flavor Section** – Horizontal scroll slider showcasing 6 unique flavors.  
+👉 **Nutrition Section** – Animated nutrition facts with SplitText effects.  
+👉 **Highlighted Features** – Clip-path title animations and scroll-pinned video.  
+👉 **Testimonial Section** – Interactive video cards with hover play/pause and scroll-pinned layout.  
+👉 **Footer Section** – Social links, newsletter sign-up, and brand CTA.
+
+✨ Other highlights:
+
+- Fully responsive across mobile, tablet, and desktop
+- Clean code architecture with **reusable components** (`Navbar`, `FlavorTitle`, `FlavorSlider`, `ClipPathTitle`, `VideoPinSection`)
+- Smooth and polished animations for an award-worthy user experience
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- **Node.js ≥ 16**
+- **npm** or **yarn**
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/spylt.git
+
+# Navigate into the project directory
+cd spylt
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+#If you're using Yarn
+yarn install
+yarn dev
+
+
+🧠 Inspiration
+
+This project was created by following the 📺 Fullstack Empire YouTube tutorial.
+link: https://www.youtube.com/watch?v=pqYxZ8jd768
+
+This project is for educational purposes only. All visual assets and code are intended for personal learning use and not for commercial reproduction.
+```
