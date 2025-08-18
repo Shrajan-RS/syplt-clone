@@ -1,6 +1,6 @@
 # 🥤 SPYLT – Immersive Scroll Animation Website
 
-A bold and playful web experience powered by **React, GSAP, and Tailwind CSS**.  
+A bold and playful web experience **powered** by **React, GSAP, and Tailwind CSS**.  
 SPYLT blends seamless animations, storytelling transitions, and dynamic visuals into a single-page landing site designed for engagement.
 
 ---
